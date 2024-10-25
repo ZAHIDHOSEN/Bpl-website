@@ -23,7 +23,7 @@ const Players = () => {
             
 
             </div>
-            <div className="w-10/12 grid grid-cols-3 mx-auto">
+            <div className="w-10/12 grid grid-cols-3 mx-auto shadow-xl">
             
             {
                players.map(player => <Player key={Player.id} player={player} ></Player>)
