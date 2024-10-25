@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "virat kholi",
+      "author_img": "https://example.com/authors/johndoe.jpg",
+      "Rating": 4.5,
+      "Left-hand-bat": true,
+      "price": 25000,
+      "button": "chose players"
+      
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "Jane Smith",
+      "author_img": "https://example.com/authors/janesmith.jpg",
+      "Rating": 4.0,
+      "Left-hand-bat": false,
+      "price": 30000,
+      "button": "chose players"
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "Michael Johnson",
+      "author_img": "https://example.com/authors/michaeljohnson.jpg",
+      "Rating": 3.8,
+      "Left-hand-bat": true,
+      "price": 15000,
+      "button": "chose players"
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "Emily Davis",
+      "author_img": "https://example.com/authors/emilydavis.jpg",
+      "Rating": 4.7,
+      "Left-hand-bat": false,
+      "price": 28000,
+      "button": "chose players"
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "David Brown",
+      "author_img": "https://example.com/authors/davidbrown.jpg",
+      "Rating": 4.3,
+      "Left-hand-bat": true,
+      "price": 32000,
+      "button": "chose players"
+    },
+    {
+      "id": 6,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "Sophia Wilson",
+      "author_img": "https://example.com/authors/sophiawilson.jpg",
+      "Rating": 3.9,
+      "Left-hand-bat": false,
+      "price": 12000,
+      "button": "chose players"
+    },
+    {
+      "id": 7,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "Chris Evans",
+      "author_img": "https://example.com/authors/chrisevans.jpg",
+      "Rating": 4.2,
+      "Left-hand-bat": true,
+      "price": 16000,
+      "button": "chose players"
+    },
+    {
+      "id": 8,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "Olivia Martin",
+      "author_img": "https://example.com/authors/oliviamartin.jpg",
+      "Rating": 4.8,
+      "Left-hand-bat": false,
+      "price": 50000,
+      "button": "chose players"
+    },
+    {
+      "id": 9,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "Ethan Moore",
+      "author_img": "https://example.com/authors/ethanmoore.jpg",
+      "Rating": 4.1,
+      "Left-hand-bat": true,
+      "price": 8000,
+      "button": "chose players"
+    },
+    {
+      "id": 10,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "Amelia White",
+      "author_img": "https://example.com/authors/ameliawhite.jpg",
+      "Rating": 4.6,
+      "Left-hand-bat": false,
+      "price": 32594,
+      "button": "chose players"
+    },
+    {
+      "id": 11,
+      "cover": "https://i.ibb.co.com/5Ysmrps/images-60.jpg",
+      "author": "James Harris",
+      "author_img": "https://example.com/authors/jamesharris.jpg",
+      "Rating": 4.4,
+      "Left-hand-bat": true,
+      "price": 85142,
+      "button": "chose players"
+    }
+  ]
+  
