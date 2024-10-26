@@ -2,8 +2,18 @@ import logo from '../../assets/assets/logo.png'
 import banner from '../../assets/assets/bg-shadow.png' 
 import bannerMain from '../../assets/assets/banner-main.png'
 import coin from '../../assets/assets/coin.png'
+import { useState } from 'react';
 
 const Header = () => {
+
+    const [money,setMoney]=useState(0);
+
+    const addMoney = () => {
+        setMoney(money => money + 500000);
+
+    };
+
+    
 
     return (
         <div>
@@ -16,7 +26,7 @@ const Header = () => {
                 <p>Teams</p>
                 <p>Schedules</p>
                <div className='flex'>
-               <p> 0 Coins</p>
+               <p>${money}  Coins</p>
                <img src={coin} alt="" />
                </div>
           
@@ -38,7 +48,7 @@ const Header = () => {
                     <img className='mx-auto'  src={bannerMain} alt="" />
                     <h2 className='text-2xl font-bold text-white '>Assemble your ultimate Dream 11 cricket Team</h2>
                     <p className='text-xl text-gray-300'>Beyond Boundaries Beyond Limits</p>
-                    <button  className='bg-yellow-200 text-black border rounded-sm'>Claim Free Creadit</button>
+                    <button onClick={addMoney}  className='bg-yellow-200 text-black border rounded-sm'>Claim Free Creadit</button>
 
                     </div>
             

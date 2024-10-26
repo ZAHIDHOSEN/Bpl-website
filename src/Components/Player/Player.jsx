@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 
+ 
+
 
 
 const Player = ({player}) => {
@@ -8,7 +10,8 @@ const Player = ({player}) => {
     return (
         <div className=''>
             <img className='rounded-xl' src={cover} alt="" />
-            <p>Name: {author}</p>
+            <p> Name:{author}</p>
+               
             <p>Rating: {Rating}</p>
             <p>Price:{price}</p>
             <button className='border rounded-md bg-yellow-300 text-black '>{button}</button>
