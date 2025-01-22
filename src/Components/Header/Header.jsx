@@ -1,65 +1,52 @@
-import logo from '../../assets/assets/logo.png'
-import banner from '../../assets/assets/bg-shadow.png' 
-import bannerMain from '../../assets/assets/banner-main.png'
-import coin from '../../assets/assets/coin.png'
-import { useState } from 'react';
+import React from 'react';
+import profile from '../../assets/assets/logo.png'
+import coinsPic from '../../assets/assets/coin.png'
 
-const Header = () => {
 
-    const [money,setMoney]=useState(0);
-
-    const addMoney = () => {
-        setMoney(money => money + 500000);
-
-    };
-
-    
-
+const Header = ({coins}) => {
     return (
-        <div>
-            <div className='  flex w-10/12 mx-auto justify-between items-center'>
-           
-            <img src={logo} alt="" />
-            <nav className='flex gap-x-3'>
-                <p>Home</p>
-                <p>Fixture</p>
-                <p>Teams</p>
-                <p>Schedules</p>
-               <div className='flex'>
-               <p>${money}  Coins</p>
-               <img src={coin} alt="" />
-               </div>
-          
-                
-
-
-            </nav>
-            </div>
-
-            <div className='w-10/12  mx-auto  bg-black rounded-lg '>
-                
-                <div className='w-full block  relative'>
-                    <img src={banner} alt="" />
-               
-            
-               
-                
-                   <div className='w-10/12 h-full top-16   absolute text-center gap-y-3 justify-center'>
-                    <img className='mx-auto'  src={bannerMain} alt="" />
-                    <h2 className='text-2xl font-bold text-white '>Assemble your ultimate Dream 11 cricket Team</h2>
-                    <p className='text-xl text-gray-300'>Beyond Boundaries Beyond Limits</p>
-                    <button onClick={addMoney}  className='bg-yellow-200 text-black border rounded-sm'>Claim Free Creadit</button>
-
-                    </div>
-            
-                 
-                 </div>
-                 </div>
-               
-            
-   
-        </div>
-      
+        <div className='container m-auto mt-3  sticky z-[5] lg:z-15 top-0 bg-white/5 backdrop-blur-md transition-all duration-300 pb-8'>
+        <div className="navbar bg-base-100">
+  <div className="navbar-start">
+    <div className="dropdown">
+      <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabIndex="0"
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a>Home</a></li>
+        <li><a>Fixture</a></li>
+        <li><a>Teams</a></li>
+        <li><a>Schedules</a></li>
+      </ul>
+    </div>
+    <a className=" text-xl w-12"><img src={profile} alt="" /></a>
+  </div>
+  <div className="navbar-end gap-10">
+  <div className=" hidden lg:flex ">
+    <ul className="menu menu-horizontal px-1 ">
+      <li><a>Home</a></li>
+        <li><a>Fixture</a></li>
+        <li><a>Teams</a></li>
+        <li><a>Schedules</a></li>
+    </ul>
+    </div>
+    <a className="btn"><span>{coins}</span><span>Coin</span><span><img className=' w-5 lg:w-7' src={coinsPic} alt="" /></span> </a>
+   </div>
+  </div>
+    </div>
     );
 };
 
